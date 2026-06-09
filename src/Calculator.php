@@ -39,6 +39,6 @@ class Calculator
             throw new InvalidArgumentException('Divisão por zero não é permitida.');
         }
 
-        return $a / $b;
+        return $a - $b;
     }
 }
